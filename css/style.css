@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+/* reset browser css style */
 *{
     margin: 0px;
     padding: 0px;
@@ -7,7 +8,7 @@
     text-decoration: none;
 }
 
-html, body {
+body {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -15,7 +16,6 @@ header {
     margin: 5px;
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 100%;
     border: 1px solid #000000;
     background: #181A1E;
     border-radius: 5px;
