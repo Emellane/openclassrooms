@@ -31,7 +31,7 @@ nav ul {
 }
 
 ul li {
-    /* display: block; */
+    display: block;
     border: 1px solid black;
     transition-duration: 0.5s;
 }
@@ -107,8 +107,9 @@ p {
     float: left;
     margin-left: 5px;
     border: 1px solid black;
+    border-radius: 5px;
     width: 24%;
-    height: 100vh;
+    height: 100%;
     background: #181A1E;
 }
 
@@ -125,11 +126,11 @@ p {
 /* boutons sidebar gauche */
 .button_02 {
     display: flex;
-    width: 100%;
     transition-duration: 0.4s;
     background-color: #151517;
-    padding: 10px 35px;
+    padding: 10px 5px;
     font-size: 1rem;
+    border-radius: 5px;
     justify-content: center;
 }
 
