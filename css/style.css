@@ -131,6 +131,8 @@ p {
     background-color: #151517;
     padding: 10px 25px;
     font-size: 1rem;
+    border-radius: 5px;
+    justify-content: center;
 }
 
 /* marge bas de 2px sur les boutons de la suidebare gauche */
