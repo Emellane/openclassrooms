@@ -64,12 +64,6 @@ p {
 
 /* en dessous toutes les class */
 
-/* .container {
-    display: flex;
-    flex-wrap: wrap;
-} */
-
-
 /* sidebar top / barre de navigation du haut */
 .sidebar_top {
     display: block;
@@ -159,13 +153,12 @@ p {
     border-radius: 5px;
     width: 15%;
     height: 100%;
-    color: rgba(255, 255, 255, 0.63);
-    background: #181A1E;
+    color: rgba(0, 0, 0, 0.63);
 }
 
 /* header sideabar right / h1 header barre de droite */
 .siderbar_right_header {
-    color: hsla(0, 0%, 100%, 0.74);
+    color: #151517;
     text-align: center;
 }
 
@@ -173,17 +166,22 @@ p {
 .border_bottom {
     width: 100%;
     margin: 5px 0px 5px 0px;
-    border-bottom: 1px solid #4ec7f3;
+    border-bottom: 1px solid #000000;
 }
 
 
 /* sidebar right id > p */
 #p_siderbar_right {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
-#test {
-    background:#42c58a;
+#info {
+    background:#4ec7f3;
+}
+
+#p_info {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 /* section title */
@@ -193,7 +191,7 @@ p {
     font-size: 1.1rem;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
-    text-shadow: #FFF 1px 0 10px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 /* section img */
@@ -207,6 +205,14 @@ p {
 .img_box {
     display: flex;
     justify-content: flex-start;
+    flex-basis: 100%;
+    width: 100%;
+    height: 20%;
+}
+
+.img_box_02{
+    display: flex;
+    justify-content: flex-end;
     flex-basis: 100%;
     width: 100%;
     height: 20%;
