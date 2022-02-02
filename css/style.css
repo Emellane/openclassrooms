@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header {
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    border: 1px solid #000000;
+    background: #181A1E;
+    border-radius: 5px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+a:hover
+{
+    color: rgb(255, 255, 255);
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul li {
+    display: block;
+    border: 1px solid black;
+    transition-duration: 0.5s;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 5px 5px 5px 25%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    background: #181A1E;
+}
+
+p {
+    border-radius: 5px;
+}
+
+/* en dessous toutes les class */
+
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+
+/* sidebar top / barre de navigation du haut */
+.sidebar_top {
+    display: block;
+    background: #181A1E;
+    border-top: 1px solid #000000;
+    border-radius: 5px;
+    width: 100%;
+    max-width:  100%;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+/* boutons sidebar top */
+.button {
+    display: flex;
+    justify-content: center;
+    transition-duration: 0.4s;
+    background-color: #151517;
+    padding: 10px 25px;
+    font-size: 1rem;
+}
+
+/* effets sur les boutons de la barre de navigation haute */
+.button:hover {
+    background: tomato;
+    border: #000000;
+}
+
+/* margin right sidebar_top / marge droite pour les boutons de la sidebar du haut */
+.margin_right {
+    margin-right: 2px;
+}
+
+/* sideabar left / barre de navigation gauche */
+.sidebar_left {
+    display: block;
+    float: left;
+    margin-left: 5px;
+    width: 24%;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 100%;
+    background: #181A1E;
+}
+
+/* navigation sidebar gauche */
+.nav_left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    float: left;
+    width: 80%;
+    text-transform: uppercase;
+}
+
+/* boutons sidebar gauche */
+.button_02 {
+    display: flex;
+    width: 100%;
+    transition-duration: 0.4s;
+    background-color: #151517;
+    padding: 10px 25px;
+    font-size: 1rem;
+}
+
+/* marge bas de 2px sur les boutons de la suidebare gauche */
+.margin_bottom {
+    margin-bottom: 2px;
+}
+
+/* effets boutons sidebar left */
+.button_02:hover {
+    background: tomato;
+    border: #000000;
+}
+
+/* footer copyright */
+.copyright {
+    padding: 15px;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    background: #181A1E;
+}
+
+/* footer heart / coeur du bas de page */
+.heart {
+    color: #DC143C;
+}
