@@ -45,6 +45,7 @@ section {
     margin: 0px 0px 5px 0%;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
+    overflow: hidden;
 }
 
 footer {
@@ -135,7 +136,7 @@ p {
 /* effets boutons sidebar left */
 .button_02:hover {
     background: #4ec7f3;
-    border: #000000;
+    border-left: 25px solid rgb(255, 255, 255);
 }
 
 /* marge bas de 2px sur les boutons de la suidebare gauche */
