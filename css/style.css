@@ -31,7 +31,7 @@ nav ul {
 }
 
 ul li {
-    display: block;
+    /* display: block; */
     border: 1px solid black;
     transition-duration: 0.5s;
 }
@@ -106,10 +106,9 @@ p {
     display: block;
     float: left;
     margin-left: 5px;
-    width: 24%;
     border: 1px solid black;
-    border-radius: 5px;
-    height: 100%;
+    width: 24%;
+    height: 100vh;
     background: #181A1E;
 }
 
@@ -129,21 +128,20 @@ p {
     width: 100%;
     transition-duration: 0.4s;
     background-color: #151517;
-    padding: 10px 25px;
+    padding: 10px 35px;
     font-size: 1rem;
-    border-radius: 5px;
     justify-content: center;
-}
-
-/* marge bas de 2px sur les boutons de la suidebare gauche */
-.margin_bottom {
-    margin-bottom: 2px;
 }
 
 /* effets boutons sidebar left */
 .button_02:hover {
     background: tomato;
     border: #000000;
+}
+
+/* marge bas de 2px sur les boutons de la suidebare gauche */
+.margin_bottom {
+    margin-bottom: 2px;
 }
 
 /* footer copyright */
