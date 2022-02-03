@@ -1,19 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-@media screen and (max-width: 500px) {
-    section {
-        display: flex;
-        max-width: 70%;
-        flex-wrap: wrap;
-        padding: 10px;
-        margin: 0px 0px 5px 0%;
-        border: 1px solid rgb(0, 0, 0);
-        border-radius: 5px;
-        overflow: hidden;
-    }
-    
-}
-
 /* reset browser css style */
 *{
     margin: 0px;
@@ -258,4 +244,18 @@ p {
 /* footer heart / coeur du bas de page */
 .heart {
     color: #DC143C;
+}
+
+@media screen and (max-width: 500px) {
+    section {
+        display: flex;
+        max-width: 70%;
+        flex-wrap: wrap;
+        padding: 10px;
+        margin: 0px 0px 5px 0%;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    
 }
